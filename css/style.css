@@ -139,3 +139,26 @@ footer {
   padding-top: 20px;
   padding-bottom: 60px;
 }
+
+.card a {
+  color: #4f46e5;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+/* Contact page links - black by default */
+.card a.contact-link {
+  color: #000;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* Hover effect */
+.card a.contact-link:hover {
+  color: #4f46e5;
+  text-decoration: underline;
+}
