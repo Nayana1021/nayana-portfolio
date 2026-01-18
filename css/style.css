@@ -162,3 +162,18 @@ footer {
   color: #4f46e5;
   text-decoration: underline;
 }
+
+/* Icons next to contact info */
+.icon {
+  margin-right: 8px;
+  font-size: 16px;
+  vertical-align: middle;
+}
+
+/* Active navbar link */
+.navbar a.active {
+  color: #4f46e5;
+  font-weight: 600;
+  border-bottom: 2px solid #4f46e5;
+  padding-bottom: 4px;
+}
